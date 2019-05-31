@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\src\mike\ogl_tutorial\tutorial18_billboards_and_particles\tutorial18_particles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\src\mike\ogl_tutorial\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\src\mike\ogl_tutorial\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\src\mike\ogl_tutorial\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\src\mike\ogl_tutorial\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\src\mike\ogl_tutorial\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\src\mike\ogl_tutorial\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\src\mike\ogl_tutorial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\src\mike\ogl_tutorial\tutorial18_billboards_and_particles\Particle.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\src\mike\ogl_tutorial\tutorial18_billboards_and_particles\Particle.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AD820859-0278-3B03-B416-BFD5B4CE219E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{BD48FEFA-6ABA-3BB0-B4C7-11D0DEF92567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{98676980-05D8-3D34-8179-4171FCA13FD2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
